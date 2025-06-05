@@ -1,0 +1,30 @@
+1) Create "security_table". It should have email address and field on which we will be applying filter.
+
+From Modeling tab, select Add Table:
+
+security_table = 
+DATATABLE(
+    "Email Address", STRING,
+    "Tenant", STRING,
+    {
+        {"user1@example.com", "TenantA"},
+        {"user2@example.com", "TenantB"},
+        {"user3@example.com", "TenantA"}
+    }
+)
+
+2) Connect the tables on which we will be applying filter. Direction will be from security tabel to dimention table. 
+3) From Modeling tab> Manage Role, select to create new role to apply filter on security table. 
+
+[Email Address] == USERPRINCIPALNAME()
+
+4) Publish the report. Then go to Security option of symentic data model. Uder Row-Level Security option, add all the email address for which RLS was applied. 
+
+5) You can also create a measure to check who is logged in.
+
+user = USERPRINCIPALNAME
+
+
+
+https://www.youtube.com/watch?v=r5XCpeQxXl4&t=699s
+https://www.youtube.com/watch?v=8Lopt0rQQRo   - Dynamic Row Level Security in Power BI
