@@ -1,1 +1,14 @@
+1) Go to Modeling tab and select Parameter, Field. 
+
+2) In add and reorder field, enter the columns for which we need breakdown, and create. It will create a new table.
+
+If we need to add any value afterwards, we can modify it from formula bar.
+
+3) Create a new slicer and add column from newly created table.
+
+4) For the visual on which we need breakdown, add the same column.
+
+5) We can also create field parameter for measures. Instead of columns, add already created measure. 
+
+
 https://www.youtube.com/watch?v=-nqEv2YXLsU&t=550s
