@@ -1,0 +1,23 @@
+vipul@tnbttech.com
+Myname@0606@
+
+https://tnbttechpvtltd.sharepoint.com/sites/TNBTSharepointTesting/Shared Documents/Power BI Projects (1)/VRX/Masters/Customer_Master.xlsx
+https://tnbttechpvtltd.sharepoint.com/sites/TNBTSharepointTesting/Shared Documents/Power BI Projects (1)/VRX/Masters/Prod_Mapping.xlsx
+
+
+-----------
+23-10-2025
+Some files are in zip, extracted them
+Some files had different format (.xlsb), changed them to .xlsx
+File names were not uniform, corrected them
+Verified columns in all the sales dump file. 6, 7, 8, 9/2025 monhts do not have below columns. 
+
+DATAAREAID
+PARTITION
+RECID
+RECVERSION
+
+Uploaded all the corrected files in Sales dump folder, and changed file names in Masters folder. 
+Please do not modify file structure in Masters or Sales dump folders. 
+
+Imported Sales Dump, Customer Master and Product mapping to PBI, Connection is directly with SharePoint
