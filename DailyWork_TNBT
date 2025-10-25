@@ -13,6 +13,7 @@ https://tnbttechpvtltd.sharepoint.com/sites/TNBTSharepointTesting/Shared Documen
 
 -----------
 23-10-2025
+
 Some files are in zip, extracted them
 Some files had different format (.xlsb), changed them to .xlsx
 File names were not uniform, corrected them
@@ -27,6 +28,12 @@ Uploaded all the corrected files in Sales dump folder, and changed file names in
 Please do not modify file structure in Masters or Sales dump folders. 
 
 Imported Sales Dump, Customer Master and Product mapping to PBI, Connection is directly with SharePoint
+Checked and corrected column quality
+created dim_Calendar table
+Worked on initial measures
+
+Time invested today: ~3-4 hours
+Shared you report link over email
 
 -----------
 24-10-2025
@@ -35,4 +42,7 @@ Couldn't work on PBI report
 
 -----------
 25-10-2025
-Uploded other files
+All the measures required for Previous Year created. 
+
+Need your help to understand all three files in "RE_ [External--Sender] Re_ Data Dump.zip" folder. Please let me know when you are available.
+
